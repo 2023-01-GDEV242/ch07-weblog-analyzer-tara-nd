@@ -89,7 +89,9 @@ public class LogAnalyzer {
         }
         System.out.println("This file has been accessed " + accesses + " times.");
     }
-    
+    /**
+     * logs busiest hour
+     */
     public void busiestHour() {
         int max = hourCounts[0];
         int maxhour = 0;
